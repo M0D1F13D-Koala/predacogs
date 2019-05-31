@@ -40,7 +40,9 @@ class DblTools(commands.Cog):
                 return None
             elif resp.status != 200:
                 await ctx.send(
-                    "Error when trying to get DBL API. Error code: {}".format(inline(resp.status))
+                    _("Error when trying to get DBL API. Error code: {}").format(
+                        inline(resp.status)
+                    )
                 )
                 return None
             data = await resp.json(content_type=None)
