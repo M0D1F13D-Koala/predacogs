@@ -26,6 +26,7 @@ MEMES = [
     "DeepFriedMemes",
     "dndmemes",
     "wholesomememes",
+    "BlackPeopleTwitter",
 ]
 PHOTOS = [
     "Nikon",
